@@ -1,0 +1,49 @@
+{
+  "name": "ux-ui-email-extension-pack",
+  "displayName": "UX_UI Email Extension Pack",
+  "description": "Extensions and settings for creating those sweet, sweet emails",
+  "version": "1.0.0",
+  "publisher": "csmith",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrismith77/vscode-email-resources.git"
+  },
+  "engines": {
+    "vscode": "^1.77.1"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "astro-build.astro-vscode",
+    "alefragnani.Bookmarks",
+    "alefragnani.project-manager",
+    "anteprimorac.html-end-tag-labels",
+    "atomiks.moonlight",
+    "byi8220.indented-block-highlighting",
+    "chrisvltn.vs-code-semicolon-insertion",
+    "eamodio.gitlens",
+    "ecmel.vscode-html-css",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-rename-tag",
+    "gitlab.gitlab-workflow",
+    "htmlhint.vscode-htmlhint",
+    "kamikillerto.vscode-colorize",
+    "liviuschera.noctis",
+    "mhutchie.git-graph",
+    "mkxml.vscode-filesize",
+    "mrmlnc.vscode-duplicate",
+    "patbenatar.advanced-new-file",
+    "pkief.material-icon-theme",
+    "pranaygp.vscode-css-peek",
+    "redhat.vscode-commons",
+    "redhat.vscode-yaml",
+    "ritwickdey.LiveServer",
+    "shd101wyy.markdown-preview-enhanced",
+    "sleistner.vscode-fileutils",
+    "stevensona.character-count",
+    "streetsidesoftware.code-spell-checker",
+    "techer.open-in-browser",
+    "xnerd.ampscript-language"
+  ]
+}

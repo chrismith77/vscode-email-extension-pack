@@ -1,0 +1,274 @@
+{
+  // Astro
+  "astro.typescript.allowArbitraryAttributes": true,
+
+  // Code Spell Checker
+  "cSpell.enabledLanguageIds": [
+    "asciidoc", "astro",
+    "c", "cpp", "csharp", "css",
+    "erb",
+    "git-commit", "go", "graphql",
+    "handlebars", "haskell", "html",
+    "jade", "java", "javascript", "javascriptreact", "json", "jsonc", "jupyter",
+    "latex", "less",
+    "markdown",
+    "php", "plaintext", "python", "pug",
+    "restructuredtext", "ruby", "rust",
+    "scala", "scss",
+    "text", "typescript", "typescriptreact",
+    "yaml", "yml",
+    "xml"
+  ],
+  "cSpell.userWords": [
+    "ampscript", "apothic", "arcsize", "arial", "astro",
+    "bgcolor", "bspace", "busname",
+    "cellpadding", "cellspacing", "codesnippetblock", "concat",
+    "degdigital",
+    "eacute", "emailaddr", "euml", "extracss",
+    "gmail", "grizz", "grizzlemail", "gsub", "gulpfile",
+    "helvetica",
+    "itemprop", "itemscope", "itemtype",
+    "lspace",
+    "monospace", "mso", "museo",
+    "nbsp", "nowrap",
+    "oneasics", "OOTB", "opencounter",
+    "pardot", "pcss", "pinterest", "precss", "preheader",
+    "roboto", "roundrect", "rspace", "runat",
+    "samsungfix", "sfmc", "smsb", "strokecolor", "strokeweight", "stylelint", "stylesheet", "stylesheets",
+    "templating", "textbox", "tspace",
+    "unsub",
+    "valign", "vawp",
+    "webmail", "websafe", "wordmark",
+    "xmlns",
+    "youtube",
+    "zwnj"
+  ],
+
+  // CSS lint
+  "css.lint.duplicateProperties": "warning",
+  "css.lint.validProperties": [
+    "mso-border-alt",
+    "mso-color-alt",
+    "mso-font-width",
+    "mso-line-height-alt",
+    "mso-line-height-rule",
+    "mso-hide",
+    "mso-margin-bottom-alt",
+    "mso-margin-left-alt",
+    "mso-margin-right-alt",
+    "mso-margin-top-alt",
+    "mso-padding-alt",
+    "mso-special-format",
+    "mso-table-bspace",
+    "mso-table-lspace",
+    "mso-table-rspace",
+    "mso-table-tspace",
+    "text-underline-color",
+    "mso-text-raise",
+    "mso-width-alt"
+  ],
+
+  // Colorize
+  "colorize.languages": [
+    "ampscript",
+    "astro",
+    "css",
+    "erb",
+    "handlebars", "html",
+    "javascript", "json",
+    "less",
+    "nunjucks",
+    "postcss",
+    "ruby",
+    "sass", "scss", "sss", "svg",
+    "typescript",
+    "xml",
+    "yaml"
+  ],
+  
+  // Editor Settings
+  "editor.bracketPairColorization.enabled": true,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "block",
+  "editor.cursorWidth": 5,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'cascadia code'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.guides.bracketPairs": "active",
+  "editor.hover.enabled": false,
+  "editor.lineHeight": 24,
+  "editor.linkedEditing": true,
+  "editor.minimap.maxColumn": 50,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.padding.top": 35,
+  "editor.quickSuggestionsDelay": 100,
+  "editor.unusualLineTerminators": "auto",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+
+  // Emmet
+  "emmet.triggerExpansionOnTab": true,
+
+  // ERB
+  "[erb]": {
+    "editor.language.brackets": [
+      ["%%[", "]%%"],
+      ["<%", "%>"]
+    ],
+    "editor.language.colorizedBracketPairs": [
+      ["%%[", "]%%"],
+      ["<%", "%>"]
+    ]
+  },
+
+  // Explorer
+  "breadcrumbs.enabled": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.decorations.badges": false,
+
+  // File associations
+  "files.associations": {
+    "[*.amp, *.amps, *.amp.astro]": "ampscript",
+    "*.erb": "erb",
+    "*.mdx": "markdown",
+    "**/build/content/handlebars-files/**/*.html": "handlebars",
+    "templateChooser.html": "handlebars",
+    "*.scss.erb": "scss",
+    "*.sublime-snippet": "xml"
+  },
+
+  // Files to exclude from Explorer view
+  "files.exclude": {
+    "**/_gem-resources": true,
+    "**/_helpers.rb": true,
+    "**/.sass-cache": true,
+    "**/config.rb": true,
+    "**/Gemfile": true,
+    "**/Gemfile.lock": true,
+    "**/Rakefile": true
+  },
+
+  // Git
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "always",
+  "scm.alwaysShowRepositories": true,
+  
+  // Git Lens
+  "gitlens.defaultDateFormat": "YYYY-MM-DD",
+  "gitlens.hovers.currentLine.over": "line",
+
+  // HTML formatting
+  "html.format.indentInnerHtml": true,
+  "html.format.preserveNewLines": false,
+  "html.format.wrapLineLength": 1000,
+  "html.format.wrapAttributes": "auto",
+
+  // HTML Hint
+  "htmlhint.options": {
+    "doctype-first": false
+  },
+
+  // JavaScript
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // Live Server
+  "liveServer.settings.CustomBrowser": "firefox", // Update to your fav
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+
+  // Prettier
+  "prettier.documentSelectors": ["**/*.astro"],
+  "prettier.printWidth": 110,
+  "prettier.singleAttributePerLine": false,
+  "prettier.singleQuote": true,
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.language.brackets": [
+      ["%%[", "]%%"],
+      ["<%", "%>"]
+    ],
+    "editor.language.colorizedBracketPairs": [
+      ["%%[", "]%%"],
+      ["<%", "%>"]
+    ]
+  },
+
+  // Project Manager
+  "projectManager.git.baseFolders": [
+    "~\\AppData\\Roaming\\Code\\User",
+    "c:\\\\repos",
+    "$home\\repos",
+    "$home\\Library\\Application Support\\Code\\User",
+    "e:\\\\repos",
+    "~\\dev"
+  ],
+
+  // Red Hat
+  "redhat.telemetry.enabled": true,
+
+  // SCSS lint
+  "scss.lint.validProperties": [
+    "mso-border-alt",
+    "mso-font-width",
+    "mso-line-height-alt",
+    "mso-line-height-rule",
+    "mso-hide",
+    "mso-margin-bottom-alt",
+    "mso-margin-left-alt",
+    "mso-margin-right-alt",
+    "mso-margin-top-alt",
+    "mso-padding-alt",
+    "mso-special-format",
+    "mso-table-bspace",
+    "mso-table-lspace",
+    "mso-table-rspace",
+    "mso-table-tspace",
+    "mso-text-raise",
+    "mso-width-alt"
+  ],
+
+  // Terminal
+  "terminal.integrated.defaultProfile.osx": "bash",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontSize": 11,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.smoothScrolling": true,
+  "window.openFilesInNewWindow": "on",
+  "window.title": "${activeEditorShort}${separator}${rootPath}",
+  "window.commandCenter": true,
+
+  // Workbench customizations
+  "workbench.colorCustomizations": {
+    // Mostly color updates to make things stand out
+    // Optimized for use with the Moonlight theme
+    "activityBar.background": "#050d0f",
+    "editorBracketHighlight.foreground1": "#DA70D6",
+    "editorBracketHighlight.foreground2": "#ffbf00",
+    "editorBracketHighlight.foreground3": "#179fff",
+    "editorError.foreground": "#f954ff",
+    "editorGroup.border": "#00bfff3e",
+    "editorInfo.foreground": "#a2ff00",
+    "editorInfo.border": "#a2ff00",
+    "editorStickyScroll.background": "#050d0f",
+    "editorStickyScrollHover.background": "#0f191b",
+    "sideBar.background": "#050d0f",
+    "statusBar.background": "#050d0f",
+    "statusBar.foreground": "#00bfff",
+    "panel.background": "#050d0f"
+  },
+  "workbench.colorTheme": "Moonlight II",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.panel.defaultLocation": "right",
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "material-icon-theme",
+
+  // YAML
+  "yaml.schemas": {
+    "file:///c%3A/Users/CSMITH38/.vscode/extensions/atlassian.atlascode-3.0.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  }  
+}
